@@ -84,11 +84,17 @@ This makes the tool highly useful for anyone who needs **both structured data ex
 ## 📂 Folder Structure  
 ```
 PDFParserSummarizer/
-│── app.py   # Streamlit frontend
-│── parser.py   # PDF parsing logic
-│── summarizer.py   # Hugging Face summarization logic
-│── requirements.txt   # Dependencies
-└── README.md   # Documentation
+│── About_project.pdf   # Project description document
+│── README.md           # Documentation
+│── app.py              # Streamlit frontend
+│── app_preview.png     # UI preview screenshot
+│── json_preview.png    # JSON viewer preview
+│── metadata_preview.png# Metadata tab preview
+│── parser.py           # PDF parsing logic
+│── requirements.txt    # Dependencies
+│── sample.pdf          # Sample PDF for testing
+│── summarizer.py       # Hugging Face summarization logic
+└── summary_preview.png # Summary tab preview
 ```
 
 ---
