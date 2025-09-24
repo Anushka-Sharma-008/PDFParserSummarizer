@@ -14,7 +14,8 @@ This makes the tool highly useful for anyone who needs **both structured data ex
 
 ## 🔗 Links  
 - 🚀 **Live Demo (Streamlit App):** [pdfparsersummarizer.streamlit.app](https://pdfparsersummarizer.streamlit.app/)  
-- 🤗 **Hugging Face Model Used:** [sshleifer/distilbart-cnn-12-6](https://huggingface.co/sshleifer/distilbart-cnn-12-6)  
+- 🤗 **Hugging Face Model Used:** [sshleifer/distilbart-cnn-12-6](https://huggingface.co/sshleifer/distilbart-cnn-12-6)
+- 📄 **About the Project:** [README](About_project.pdf)  
 
 ---
 
