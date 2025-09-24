@@ -19,7 +19,7 @@ This makes the tool highly useful for anyone who needs **both structured data ex
 ---
 
 ## 🖼️ Project Preview  
-![App Screenshot](https://via.placeholder.com/900x450.png?text=PDF+Parser+%2B+Summarizer+Preview)  
+<img src="app_preview.png">
 
 ---
 
@@ -74,11 +74,84 @@ This makes the tool highly useful for anyone who needs **both structured data ex
 ---
 
 ## 👀 Preview (App Tabs)  
-- **📑 JSON Preview:** Structured output of the parsed PDF.  
-- **📝 Summary:** AI-generated concise summary of the document.  
-- **📊 Metadata:** Page count, paragraph count, and word count.  
+- **📑 JSON Preview:** <img src="json_preview.png">
+- **📝 Summary:** <img src="summary_preview.png"> 
+- **📊 Metadata:** <img src="metadata_preview.png">
 
 ---
 
 ## 📂 Folder Structure  
+```
+PDFParserSummarizer/
+│── app.py   # Streamlit frontend
+│── parser.py   # PDF parsing logic
+│── summarizer.py   # Hugging Face summarization logic
+│── requirements.txt   # Dependencies
+└── README.md   # Documentation
+```
 
+---
+
+## 💡 Use Cases  
+- 📚 **Research Papers** → Parse and summarize lengthy academic PDFs.  
+- 📈 **Business Reports** → Extract tables + text, then summarize into insights.  
+- 🏛️ **Legal Documents** → Get concise summaries of contracts or case files.  
+- 📰 **Articles/Whitepapers** → Quickly digest long documents.  
+- 🗄️ **General Archival** → Store both structured JSON and human-readable summary.  
+
+---
+
+## ⚡ Setup Instructions  
+
+### 1. Clone the Repository  
+```bash
+git clone https://github.com/your-username/pdf-parser-summarizer.git
+cd pdf-parser-summarizer
+```
+
+### 2. Create Virtual Environment (Recommended)
+```
+python -m venv venv
+source venv/bin/activate   # On Mac/Linux
+venv\Scripts\activate      # On Windows
+```
+
+### 3. Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+### 4. Run Locally
+```
+streamlit run app.py
+```
+
+---
+
+## 🌟 Unique Selling Point (USP)  
+
+Unlike typical PDF parsers that only **extract raw content**, this project integrates **AI-powered summarization**.  
+
+- Summarization works seamlessly with extracted **text and tables**.  
+- Handles **long documents** using intelligent chunking.  
+- Produces **clear, concise insights** in addition to structured JSON.  
+
+This **combination of Parsing + Summarization** makes the project stand out as a **Document AI system**, not just a parser.  
+
+---
+
+## 🙋‍♀️ Author
+
+**Anushka Sharma**  
+🌐 [LinkedIn](https://www.linkedin.com/in/anushkasharma008/) • 🐱 [GitHub](https://github.com/Anushka-Sharma-008) 
+🎓 Learning Data Science, Analytics & Machine Learning
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project helpful or inspiring:
+
+- ⭐ Star this repository  
+- 🛠️ Fork it to build upon or adapt it for your own use  
+- 💬 Share feedback or suggestions via Issues/Discussions
